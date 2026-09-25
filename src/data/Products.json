@@ -1,0 +1,23 @@
+[
+     {
+    "id": 1,
+    "name": "Running Shoes",
+    "price": 89.99,
+    "category": "men",
+    "image": "/images/shoes.png"
+  },
+  {
+    "id": 2,
+    "name": "Training T-Shirt",
+    "price": 29.99,
+    "category": "men",
+    "image": "/images/tshirt.png"
+  },
+  {
+    "id": 3,
+    "name": "Sports Bra",
+    "price": 34.99,
+    "category": "women",
+    "image": "/images/bra.png"
+  }
+]

@@ -1,0 +1,58 @@
+.cart-container {
+  font-family: 'Poppins', sans-serif;
+  margin: 2rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+}
+
+.cart-content {
+  color:black;
+}
+
+.checkout-button {
+       border-radius: 6px;;
+       border: 1px solid black;-radius: 6px;;
+        background-color: white;
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 5px;
+     margin: 2rem 0;
+
+ }
+
+ .checkout-button:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.continue-button {
+ 
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 6px;
+
+  text-decoration: none;
+  color: black;
+
+  cursor: pointer;
+
+}
+
+.continue-button:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.cart-container p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}

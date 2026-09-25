@@ -1,0 +1,26 @@
+.cart-item {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  gap: 2rem;
+  align-items: center;
+    padding: 0 7rem;
+    padding-top: 1rem;
+}
+.cart-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.cart-item-info {
+  flex: 1;
+}
+.cart-item button {
+  padding: 0.3rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(18, 1, 1);
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: 1rem;
+}

@@ -1,0 +1,28 @@
+.footer {
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer h2 {
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+}
