@@ -1,4 +1,4 @@
-import runningShoes1 from "../assets/running-shoes.jpg";
+/*import runningShoes1 from "../assets/running-shoes.jpg";
 import runningShoes2 from "../assets/pexels-bui-huy-857169-1750045.jpg";
 import denimSneakers from "../assets/pexels-jose-martin-segura-benites-1422456152-27063095.jpg";
 import shinySneakers from "../assets/pexels-jose-martin-segura-benites-1422456152-26954375.jpg";
@@ -97,4 +97,4 @@ const products = [
         image: runningShoes8
     }
 ]
-export default products;
+export default products;*/

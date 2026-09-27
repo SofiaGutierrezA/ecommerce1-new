@@ -1,13 +1,19 @@
 import "./Women.css";
-import { Link } from "react-router-dom";
-import products from "../data/Products.js";
 import ProductSection from "../components/ProductSection";
 import Footer from "../components/Footer";
-
+import { useEffect, useState } from "react";
 
 function Women({ addToCart }) {
-    const womenProducts = products.filter((product) => product.category === "women");
-
+    const [products, setProducts] = useState([]);
+    
+        useEffect(() => {
+            fetch("http://localhost:3000/api/products")
+                .then((response) => response.json())
+                .then((data) => setProducts(data));
+        }, []);
+    
+        const womenProducts = products.filter((product) => product.category === "women");
+    
     return (
     <div>
     <h1>Women</h1>

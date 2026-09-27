@@ -1,6 +1,5 @@
 import "./Home.css";
 import Hero from "../components/Hero";
-import ProductSection from "../components/ProductSection";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -17,16 +16,21 @@ function Home({ addToCart }) {
       {/* import men and womens sections with links */}
       <div className="category-links">
       <div className="category-card">
+    
+    <div className="category-img">
+    <Link to="/men">
     <img src={menImage} alt="Men" />
-    <Link to="/men" className="category-button">
-      Men
+    <span>Men</span>
     </Link>
     </div>
-          <div className="category-card">
+          <div >
+    <div className="category-img">
+    <Link to="/women" >
     <img src={womenImage} alt="Women" />
-    <Link to="/women" className="category-button">
-      Women
+    <span>Women</span>
     </Link>
+    </div>
+    </div>
   </div>
       </div>
       <Newsletter />

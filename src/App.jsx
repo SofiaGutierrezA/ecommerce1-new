@@ -8,7 +8,7 @@ import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
-
+import ProductDetail from "./pages/ProductDetail";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -45,6 +45,10 @@ function App() {
           <Route 
           path="/women"
           element={<Women addToCart={addToCart} />}
+          />
+          <Route
+          path="/product/:id"
+          element={<ProductDetail addToCart={addToCart} />}
           />
       </Routes>
       </BrowserRouter>
