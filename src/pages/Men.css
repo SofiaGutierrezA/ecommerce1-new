@@ -1,0 +1,15 @@
+.men-page {
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .men-page h1 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .men-products {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 20px;
+ }

@@ -15,9 +15,9 @@ function Men({ addToCart }) {
     const menProducts = products.filter((product) => product.category === "men");
 
     return (
-    <div>
+    <div className="men-page">
     <h1>Men</h1>
-     <ProductSection
+     <ProductSection className="men-products"
         products={menProducts}
         addToCart={addToCart}
       />

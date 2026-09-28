@@ -14,8 +14,8 @@ function App() {
   const [cart, setCart] = useState([]);
   console.log(cart);
 
-  function addToCart(product) {
-    setCart([...cart, product]); //Agrega el producto al carrito, crea un array
+  function addToCart(product, selectedSize) {
+    setCart([...cart, { ...product, size: selectedSize }]); //Agrega el producto al carrito, crea un array
   }
 
   function removeFromCart(indexToRemove) {
