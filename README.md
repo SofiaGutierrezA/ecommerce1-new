@@ -1,16 +1,68 @@
-# React + Vite
+# eCommerce Website Soleva
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce de calzado deportivo. El proyecto utiliza una arquitectura separada entre frontend y backend. Elfrontend obtiene los productos mediante peticiones HTTP a la API, mientras que Express se comunica con la base de datos SQLite.
+<img width="1911" height="912" alt="soleva1" src="https://github.com/user-attachments/assets/75f7a68e-21fa-46a4-bc8e-ada1ee35efa6" />
 
-Currently, two official plugins are available:
+# Frontend
+HTML
+CSS
+JavaScript
+React
+Vite
+React Router
+Font Awesome
+# Backend
+Node.js
+Express
+SQLite
+better-sqlite3
+CORS
+# Funciones
+- Catálogo de productos
+- Productos separados por categoría
+- Página de detalle de cada producto
+- Selección de talla
+- Carrito de compra
+- Añadir y eliminar productos del carrito
+- Gestión de productos mediante una API REST
+- Persistencia de productos en SQLite
+- Gestión de tallas y stock por producto
+- Filtros y búsqueda de productos
+- Navegación mediante React Router
+# API REST
+Implementa CRUD (GET, POST, PUT, DELETE) de los productos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Instalación
+1. Clonar el repositorio
+git clone <repository-url>
+cd ecommerce1
+2. Instalar las dependencias del frontend
+npm install
+3. Instalar las dependencias del backend
+cd backend
+npm install
+4. Iniciar el backend
+npm run dev
+El servidor estará disponible en: http://localhost:3000
+5. Iniciar el frontend
+Desde la carpeta principal: npm run dev
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Estructura del proyecto
+ecommerce1/
+├── backend/
+│   ├── data/
+│   ├── database.sqlite
+│   ├── migrate.js
+│   ├── server.js
+│   └── package.json
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
