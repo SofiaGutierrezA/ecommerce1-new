@@ -50,18 +50,18 @@ Desde la carpeta principal: npm run dev
 ecommerce1\
 ├── backend\
 │   ├── data\
-│   ├── database.sqlite
-│   ├── migrate.js
-│   ├── server.js
-│   └── package.json
+│   ├── database.sqlite\
+│   ├── migrate.js\
+│   ├── server.js\
+│   └── package.json\
 │
 ├── src\
 │   ├── assets\
 │   ├── components\
 │   ├── pages\
-│   ├── App.jsx
-│   └── main.jsx
+│   ├── App.jsx\
+│   └── main.jsx\
 │
-├── package.json
-├── vite.config.js
-└── README.md
+├── package.json\
+├── vite.config.js\
+└── README.md\
