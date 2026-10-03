@@ -47,18 +47,18 @@ El servidor estará disponible en: http://localhost:3000
 5. Iniciar el frontend
 Desde la carpeta principal: npm run dev
 
-ecommerce1/
-├── backend/
-│   ├── data/
+ecommerce1\
+├── backend\
+│   ├── data\
 │   ├── database.sqlite
 │   ├── migrate.js
 │   ├── server.js
 │   └── package.json
 │
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
+├── src\
+│   ├── assets\
+│   ├── components\
+│   ├── pages\
 │   ├── App.jsx
 │   └── main.jsx
 │
